@@ -1,1 +1,1 @@
-This is a responsive
+This is a responsive website
