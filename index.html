@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="side_menu.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <div class="bar" id="open-bar" onclick="openSideBar()" style="position: absolute; left: 0;">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <li id="head">Porfo<span>lio</span></li>
+                <div class="links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <a href="#" id="btn">Subscribe</a>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="close-bar" id="side-menu" onclick="closeSideBar()">
+        <a href="#" class="btn-close">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+        <a href="#" id="subscribe">Subscribe</a>
+    </div>
+    
+    <div class="name" id="main">
+        <h3>Hello, my name is</h3>
+        <h1>Emmanuel <span>Ogbuefi</span></h1>
+        <h2>I'm a Web Developer</h2>
+        <div class="search">    
+                <input id="mail" type="email" placeholder="Enter Your Email">
+                <button id="submit" type="submit">let's start</button>
+        </div>
+    </div>
+    <!-- About Page -->
+    <section class="about">
+        <div class="main">
+            <!-- <div class="about-pics"> -->
+            <img src="img/IMG_0229.JPG" alt="">
+            <!-- </div> -->
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer <span>& Designer</span></h5>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Obcaecati quaerat 
+                    reiciendis natus soluta praesentium, 
+                    vitae dolore aut consequatur inventore 
+                    quia labore odit eaque magnam unde 
+                    sapiente maxime dolor iusto asperiores. 
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Labore eos asperiores facilis sit tempore culpa temporibus non ullam atque tenetur sed,
+                    exercitationem quod blanditiis cupiditate consequatur 
+                    consequuntur beatae? Totam, eaque!
+                </p>
+                <button type="submit">Let's Talk</button>
+
+            </div>
+        </div>
+    </section>
+    <!-- Our Services -->
+    <section>
+        <div class="service">
+            <div class="title">
+                <h1>Our Services</h1>
+            </div>
+            <div class="read-more">
+                <div class="first">
+                    <i class="fa-solid fa-bars"></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Corrupti eius velit cumque ad, 
+                        sunt id aut aspernatur ipsa tenetur impedit 
+                        maxime vel reiciendis perferendis 
+                        odit fugiat magnam sequi vitae necessitatibus.
+                    </p>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="first">
+                    <i class="fa-regular fa-user"></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Corrupti eius velit cumque ad, 
+                        sunt id aut aspernatur ipsa tenetur impedit 
+                        maxime vel reiciendis perferendis 
+                        odit fugiat magnam sequi vitae necessitatibus.
+                    </p>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="first">
+                    <i class="fa-regular fa-bell"></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Corrupti eius velit cumque ad, 
+                        sunt id aut aspernatur ipsa tenetur impedit 
+                        maxime vel reiciendis perferendis 
+                        odit fugiat magnam sequi vitae necessitatibus.
+                    </p>
+                    <p><a href="#">Read More</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="hire">
+        <h2>Let Me Get You A Beautiful Website.</h2>
+        <div class="hire-me">
+            <a href="#">Hire Me</a>
+        </div>
+    </div>
+    <footer>
+        <h2>Emmanuel Ogbuefi</h2>
+        <p>For more Html, Css and coding turtorial. please click
+        </p>
+        <p> on the link to subscribe to my channel:</p>
+        <div class="social-links">
+            <a href="https://web.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/emma_godei/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/9158536383" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/emmanuel-ogbuefi-324379249" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/Emma_godei" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        
+    </footer>
+</body>
+</html>
