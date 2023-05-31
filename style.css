@@ -62,6 +62,7 @@ body{
     width: 60%;
     padding: 6rem 8rem;
     height: 85vh;
+    transition: .5s;
 }
 .name h1{
     margin: 10px 0 20px 0;
@@ -298,7 +299,7 @@ footer p{
         color: #fff;
         font-size: 22px;
         display: block;
-        transition: .4s;
+        transition: .5s;
         margin-left: 300px;
     }
     .close-bar a:hover{
