@@ -6,7 +6,7 @@
 body{
     position: relative;
     background-color: #000;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .navbar ul{
     display: flex;
